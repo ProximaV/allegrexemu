@@ -1,7 +1,3 @@
-import struct
-import os
-import sys
-import keyboard
 
 display=0
 
@@ -1547,7 +1543,7 @@ def decodemips(instr):
         print("\nInvalid opcode: %d\n0x%x" % (op, instr))
 
 
-def decompress_RL4E(kl4e_data):
+def decompress_kl4e(kl4e_data):
     global PC
     global display
     global regs
